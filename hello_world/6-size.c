@@ -1,15 +1,15 @@
-/* C program to print size of various types on the computer */
+OB/* C program to print size of various types on the computer */
 
 #include <stdio.h>
 
 /**
  * main - print
- * print diferent types of the computer
  *
+ *Description: print diferent types of the computer
+ *
+ *Return: always 0 (success)
  */
-
 int main(void)
-
 {
 	printf("Size of a char: %i byte(s)\n", sizeof(char));
 	printf("Size of an int: %i byte(s)\n", sizeof(int));
