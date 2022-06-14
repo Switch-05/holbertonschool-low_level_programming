@@ -1,7 +1,8 @@
 /* C program to print size of various types on the computer */
 
 #include <stdio.h>
-/*
+
+/**
  * main - print
  * print diferent types of the computer
  *
