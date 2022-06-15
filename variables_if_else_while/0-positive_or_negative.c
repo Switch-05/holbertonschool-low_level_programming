@@ -6,9 +6,11 @@
  *
  */
 
-/*
-* main - print different variables.
-* Return: always 0 (success)
+/**
+* main - positive or negative.
+*
+* Description: 'test if n is positive, negative or zero'
+* Return: Always 0 (success)
 *
 */
 int main(void)
