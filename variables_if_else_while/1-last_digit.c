@@ -5,11 +5,10 @@
 /** Last digit*/
 
 /**
-*
 *main - imprime el último digito.
 *
 *Description: "compara el último digito e imprime mayor, menor o igualdad".
-*Return zero (success)
+*Return: zero (success)
 */
 int main(void)
 {
