@@ -6,9 +6,9 @@
 
 /**
 *
-*main - imprime el último digito
+*main - imprime el último digito.
 *
-*Description "compara el último digito e imprime mayor, menor o igualdad"
+*Description: "compara el último digito e imprime mayor, menor o igualdad".
 *Return zero (success)
 */
 int main(void)
@@ -18,17 +18,18 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	lastdigit = n % 10;
+	printf("last digit of %d is %d", n, lastdigit);
 	if (lastdigit > 5)
 	{
-		printf("Last digit of %d is %d and is greater than 5\n", n, lastdigit);
+		printf("and is greater than 5\n");
 	}
 	if (lastdigit == 0)
 	{
-		printf("Last digit of %d is %d and is 0\n", n, lastdigit);
+		printf("and is 0\n");
 	}
-	if (lastdigit < 6 && ~0)
+	if (lastdigit < 6 && lastdigit != 0)
 	{
-		printf("last digit of %d is %d and is less than 6 and not 0\n", n, lastdigit);
+		printf("and is less than 6 and not 0\n");
 	}
 	return (0);
 }
