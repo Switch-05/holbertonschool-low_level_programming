@@ -1,14 +1,14 @@
 #include <stdio.h>
 /*
- *Numbers
+ *Numberz
  *
  */
 
 /**
- * main - show numbres.
+ * main - show numberz.
  *
  * Description: "Write a program that prints all single digit numbers
- * of base 10 starting from 0 ".
+ * of base 10 starting from 0, use int".
  * Return: Always 0 (success)
  *
  */
