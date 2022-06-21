@@ -15,16 +15,19 @@ int main(void)
 {
 	int n;
 
-	for (n = '0'; n <= '9'; n++)
+	for (n = 0; n <= 9; n++)
 	{
-		if (n == 0)
+		if (n < 9)
 		{
-			putchar (n);
-		}
-		
-		putchar (' ');
-		putchar (n);
+		putchar (48 + n);
 		putchar (',');
+		putchar (' ');
+		}
+		if (n == 9)
+		{
+			putchar (48 + n);
+		}
 	}
+	putchar ('\n');
 	return (0);
 }
