@@ -12,15 +12,22 @@
  * Return: always zero.
  */
 int _abs(int n)
+	
 {
-	if (n <= 0)
+	if (n > 0)
 	{
-		_putchar (n);
+		return (n);
+		n = _abs (n);
 	}
-	return (n * -1);
-	if (n >= 0)
+	if (n < 0)
 	{
-		_putchar (n);
+		return (n);
+		n = _abs (n);
 	}
-	return (n * -1);
+	if (n == 0)
+	{
+		return (n);
+		n = _abs (n);
+	}
+	return (n);
 }
