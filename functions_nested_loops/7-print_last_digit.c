@@ -11,7 +11,7 @@
  * Description: Checks if lowercase or uppercase.
  * Return: 1 if c is a letter, 0 otherwise.
  */
-int print_last_digit(int n)	
+int print_last_digit(int n)
 {
 	int num;
 
